@@ -1,17 +1,2 @@
-document.addEventListener("DOMContentLoaded"), event => {
-    const app = firebase.app();
-    console.log(app)
-});
-
-function googleLogin() {
-    const provider = new firebase.auth.GoogleAuthProvider();
-    
-    firebase.auth().signInWithPopup(provider)
-        
-            .then(result => {
-                const user = result.user;    
-                document.write(`Hello ${user.displayName}`);    
-                console.log(user)
-            })
-            .catch(console.log)  
-}
+// Initialize the FirebaseUI Widget using Firebase.
+var ui = new firebaseui.auth.AuthUI(firebase.auth());
