@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 
 node_modules/
-quickstart-js/
+functions-samples/
