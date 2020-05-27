@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "werld-326f0"
+    "default": "werld-326f0",
+    "dev": "werld-326f0"
   }
 }
